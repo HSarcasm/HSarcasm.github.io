@@ -1,0 +1,34 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row {
+
+}
+
+.row div {
+	display: inline;
+	float: left;
+	line-height: 2em;
+	width: 30px;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 3px;
+	text-align: center;
+	
+}
+
+.picked {
+	background-color: rgb(201, 0, 0); 
+}
