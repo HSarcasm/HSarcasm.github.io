@@ -7,7 +7,6 @@ var rowSize = 25;
 
 
 function createTable (numbers) {
-	console.log(numbers)
 	for (i = 0, j = total.length; i < j; i += rowSize) {
 		let temparray = total.slice(i , i + rowSize);
 
@@ -23,7 +22,6 @@ function createRow (arr, numbers) {
 		row.appendChild(createCell(arr[c], numbers));
 	}
 	content.appendChild(row);
-	console.log(arr)
 
 }
 
