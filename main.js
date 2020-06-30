@@ -49,7 +49,7 @@ function getJson () {
 		redirect: 'follow'
 	};
 
-	fetch("https://api.jsonbin.io/b/5ef91f547f16b71d48a7aa07/3", requestOptions)
+	fetch("https://api.jsonbin.io/b/5ef91f547f16b71d48a7aa07/4", requestOptions)
 		.then(response => response.text())
 		.then(result => createTable(JSON.parse(result)))
 
